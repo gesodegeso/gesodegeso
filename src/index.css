@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* The following block can be included in a custom.scss */
+/* make the customizations */
+#brand {
+  color: #ff6600;
+  font-size: 160%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#ft_rights {
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
 }
+
+.list_buttons {
+  margin-bottom: 1.6rem;
+  text-align: right;
+}
+
+.list_pgnation {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.payment_title {
+  margin-bottom: 1.6rem;
+  font-size: 1.5rem;
+}
+
+.prod_info {
+  background-color: #f5f5f5;
+}
+
+.terms_card .card-body {
+  padding: 0.5rem 1rem;
+}
+
+.terms_card .card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.terms_card .card-subtitle {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  padding: 0.5rem;
+  background-color: #eeeeee;
+}
+
+.terms_text {
+  height: 8rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  overflow-y: scroll;
+  background-color: #f7f7f7;
+  border: solid 1px #c9c9c9;
+  padding: 0.5em;
+  -webkit-box-shadow: 1px 1px 5px 0px #ccc inset;
+          box-shadow: 1px 1px 5px 0px #ccc inset;
+}
+
+#total_price {
+  color: #e92c00;
+  font-size: 1.25rem;
+  margin: 2rem 0rem;
+  border-bottom: solid 1px #e92c00;
+}
+/*# sourceMappingURL=index.css.map */
